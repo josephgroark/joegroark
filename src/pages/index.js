@@ -11,7 +11,7 @@ export default ({ data }) => {
     <Layout>
       <Helmet>
         <html lang="en" />
-        <title>Mikey Hilker</title>
+        <title>Joseph Groark</title>
         <meta description="The home of all things Mikey" />
       </Helmet>
       <div>
@@ -29,7 +29,7 @@ export default ({ data }) => {
             position: relative;
           `}
         >
-          Fiction and fact from Mikeys almanack
+          “Perfect is the enemy of good.” –Voltaire
         </h1>
         <h4
           css={css`

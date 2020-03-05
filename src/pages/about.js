@@ -7,10 +7,8 @@ export default ({ data }) => (
   <Layout>
     <h1>About {data.site.siteMetadata.title}</h1>
     <p>
-      We're the only site running on the internet dedicated to showing the best
-      photos, videos, and wisdom of Mikey Hilker.
-
-      Born from the bowels of Hespler Ontario, Grandson to Hitler, he's flourished to the astonishing height of 5'4".
+      I'm humbled you've taken the time to view my learning projects.
+       I'm on a journey to describe the experience of working with modern tech and share my stories along the way.
     </p>
     <img src={logo} alt="Mikey" />
   </Layout>
