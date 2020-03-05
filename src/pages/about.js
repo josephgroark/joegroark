@@ -10,7 +10,7 @@ export default ({ data }) => (
       We're the only site running on the internet dedicated to showing the best
       photos, videos, and wisdom of Mikey Hilker.
 
-      Born from the bowels of Hespler Ontario, Son to Hitler, he's flourished to the astonishing height of 5'4".
+      Born from the bowels of Hespler Ontario, Grandson to Hitler, he's flourished to the astonishing height of 5'4".
     </p>
     <img src={logo} alt="Mikey" />
   </Layout>

@@ -6,7 +6,7 @@ if(process.env.CLIENT_EMAIL && process.env.PRIVATE_KEY && process.env.GA_VIEW_ID
     dynamicPlugins.push({
       resolve: `gatsby-plugin-guess-js`,
       options: {
-        GAViewID: process.env.GA_VIEW_ID,
+        GAViewID: '88673802',
         jwt: {
           client_email: process.env.CLIENT_EMAIL,
           private_key: process.env.PRIVATE_KEY,
@@ -21,11 +21,11 @@ if(process.env.CLIENT_EMAIL && process.env.PRIVATE_KEY && process.env.GA_VIEW_ID
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.mikeyhilker.com',
-    title: `Mikey Hilker`,
-    description: `There's only one Mikey Hilker!`,
-    author: `his friends and family`,
-    url: "https://www.mikeyhilker.com", // No trailing slash allowed!
+    siteUrl: 'https://www.joegroark.com',
+    title: `Joseph Groark`,
+    description: `QA Engineer with a passion for software!`,
+    author: `Joseph`,
+    url: "https://www.joegroark.com", // No trailing slash allowed!
     image: "../images/mikeyLogo.png", // Path to your image you placed in the 'static' folder
   },
   plugins: [
@@ -63,7 +63,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `mikeyhilker`,
+        shortname: `josephgroark`,
       },
     },
     `gatsby-plugin-sharp`,
@@ -104,7 +104,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-60677648-2",
+        trackingId: "UA-52880873-1",
       },
     },
     `gatsby-plugin-offline`,
@@ -116,23 +116,5 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     'gatsby-plugin-robots-txt'
-    // {
-    //   resolve: "gatsby-plugin-guess-js",
-    //   options: {
-    //     // Find the view id in the GA admin in a section labeled "views"
-    //     GAViewID: `212478457`,
-    //     // Add a JWT to get data from GA
-    //     // jwt: {
-    //     //   client_email: `mikeyhilker@myproject-270012.iam.gserviceaccount.com`,
-    //     //   private_key: `fa75779081bacf0a2c6a5c8bf5a0fc5e1b4ff69a`,
-    //     // },
-    //     minimumThreshold: 0.03,
-    //     // The "period" for fetching analytic data.
-    //     period: {
-    //       startDate: new Date("2020-1-1"),
-    //       endDate: new Date(),
-    //     },
-    //   },
-    // },
   ].concat(dynamicPlugins)
 }
