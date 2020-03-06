@@ -20,9 +20,10 @@ export default ({ data }) => {
             float: right;
             width: 100;
             padding: 70px;
+            border-radius: 50%;
           `}
           src={logo}
-          alt="Mikey"
+          alt="Joey"
         />
         <h1
           css={css`
