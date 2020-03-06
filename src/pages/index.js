@@ -3,7 +3,7 @@ import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
-import logo from "../images/mikeyLogo.png"
+import logo from "../images/joeyLogo.png"
 import { Helmet } from "react-helmet"
 
 export default ({ data }) => {

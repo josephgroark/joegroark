@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import logo from '../images/mikey.png';
+import logo from '../images/joey.png';
 
 export default ({ data }) => (
   <Layout>
@@ -10,7 +10,7 @@ export default ({ data }) => (
       I'm humbled you've taken the time to view my learning projects.
        I'm on a journey to describe the experience of working with modern tech and share my stories along the way.
     </p>
-    <img src={logo} alt="Mikey" />
+    <img src={logo} alt="Joey" />
   </Layout>
 )
 

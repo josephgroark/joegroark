@@ -26,7 +26,7 @@ module.exports = {
     description: `QA Engineer with a passion for software!`,
     author: `Joseph`,
     url: "https://www.joegroark.com", // No trailing slash allowed!
-    image: "../images/mikeyLogo.png", // Path to your image you placed in the 'static' folder
+    image: "../images/joeyLogo.png", // Path to your image you placed in the 'static' folder
   },
   plugins: [
     {
