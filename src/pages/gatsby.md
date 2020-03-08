@@ -20,9 +20,9 @@ With all this said let me take you through my process of learning Gatsby.
 
 ## Getting started
 
-If your going to create a blog just like mine, just follow along.
+If you're going to create a blog just like mine, just follow along.
 
-The first thing I did is grab the Gatsby CLI, this enabled me to quickly create a new Gatsby-powered sites and run commands for developing Gatsby. 
+The first thing I did is grab the Gatsby CLI, this enabled me to quickly create a new Gatsby-powered site and run commands for developing Gatsby. 
 
 ```npm install -g gatsby-cli```
 

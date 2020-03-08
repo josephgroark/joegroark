@@ -5,6 +5,7 @@ import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import logo from "../images/joeyLogo.png"
 import { Helmet } from "react-helmet"
+import Quote from "../components/fetch-quote.js"
 
 export default ({ data }) => {
   return (
@@ -12,7 +13,7 @@ export default ({ data }) => {
       <Helmet>
         <html lang="en" />
         <title>Joseph Groark</title>
-        <meta description="The home of all things Mikey" />
+        <meta description="The home of all things Joey" />
       </Helmet>
       <div>
         <img
@@ -25,13 +26,9 @@ export default ({ data }) => {
           src={logo}
           alt="Joey"
         />
-        <h1
-          css={css`
-            position: relative;
-          `}
-        >
-          “Perfect is the enemy of good.” –Voltaire
-        </h1>
+        <h2>
+        <Quote />
+        </h2>
         <h4
           css={css`
             display: inline-block;
