@@ -3,7 +3,7 @@ title: "Gatsby part 1"
 date: "2020-03-05"
 ---
 
-Well here we go, welcome to my little blog about my learning journey. I wanted to touchdown with a little Gatsby, it's not really to intimidating so let's dive in.
+Well here we go, welcome to my little blog about my learning journey. I wanted to touchdown with a little Gatsby, it's not really too intimidating so let's dive in.
 
 Firstly what is it and what does it do for you?
 From gatsbyjs.org 
